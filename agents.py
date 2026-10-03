@@ -8,7 +8,7 @@ load_dotenv()
 
 
 from langchain_groq import ChatGroq
-llm = ChatGroq(model= "ministral-14b-2512")
+llm = ChatGroq(model= "ministral-14b-latest")
 
 
 #1st agent 
