@@ -8,7 +8,7 @@ load_dotenv()
 
 
 from langchain_groq import ChatGroq
-llm = ChatGroq(model= "openai/gpt-oss-120b")
+llm = ChatGroq(model= "whisper-large-v3-turbo")
 
 
 #1st agent 
