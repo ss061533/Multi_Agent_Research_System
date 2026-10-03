@@ -6,9 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
-from langchain_groq import ChatGroq
-llm = ChatGroq(model= "ministral-14b-latest")
+from langchain_mistralai import ChatMistralAI
+llm = ChatMistralAI(model= "ministral-14b-latest")
 
 
 #1st agent 
