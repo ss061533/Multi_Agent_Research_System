@@ -8,7 +8,7 @@ load_dotenv()
 
 
 from langchain_groq import ChatGroq
-llm = ChatGroq(model= "whisper-large-v3-turbo")
+llm = ChatGroq(model= "meta-llama/llama-prompt-guard-2-86m")
 
 
 #1st agent 
